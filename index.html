@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presonal portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/7eb5c3b48e.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h5><span>My Portfolio</span>.</h5>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Kabish</span>Yadav<br>From Nepal</h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <!------======= For About =======------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Photo/sir.jpg"> 
+                    
+                </div>
+                <div class="about-col-2">
+                    <!-- <h4>Get To Know</h4> -->
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Pursuing a B.Tech in Computer Science Engineering From SVCET,Chittoor</p>
+                     <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>C Language</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>R Language</li>
+                            <li>HTML5 || CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><a href="pdf/internship certificate .pdf">Upskills Internship</a></li>
+                            <li><a href="pdf/Azure AI Fundamentals (1).pdf">Azur AI fundamentals</a></li>
+                            <li><a href="pdf/cyber.pdf">Cyber security bootcamp</a></li>
+                            <li><a href="pdf/cursa.pdf">Cursa</a></li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>B-Tech in Computer Science Engineering.</li>
+                            <li><span>2019</span><br>Intermediate(+2) from Royal Softech College.</li>
+                            <li><span>2017</span><br>10th from Shree.H.P.S.H.S.School.</li>
+                        </ul>
+                    </div>   
+                
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!------======= For Services =======------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the process of creating and designing the visual appearance, layout, and user interface
+                        of websites.It encompasses a variety of elements, including graphic design, user experience (UX) 
+                        design, and front-end web development. Effective web design aims to create a website that is not 
+                        only visually appealing but also functional, user-friendly, and accessible.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                     <p>UI/UX design, often referred to as UI/UX, stands for User Interface/User Experience design. It is a
+                        critical aspect of creating digital products, such as websites, mobile apps, software applications, 
+                        and more. UI/UX design focuses on enhancing the user's satisfaction and interaction with a product
+                         by making it visually appealing, intuitive, and user-friendly. Here's a breakdown of UI/UX design:</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design, often referred to as mobile app design, is the process of creating the visual and interactive
+                        elements of a mobile application. It encompasses both User Interface (UI) design and User Experience 
+                        (UX) design, similar to web design but tailored specifically for mobile devices such as smartphones 
+                        and tablets. Here are the key aspects of app design:</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!------======= For Portfolio =======------>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Photo/social.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people 
+                            around the world.Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Photo/music.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people 
+                            around the world.Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Photo/shopping.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people 
+                            around the world.Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+          <!------======= For Contact =======------>
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i> realkabish@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +919430659382</p>
+                        <div class="social-icons">
+                          <a href="https://www.facebook.com/ajit.yadaw.583?mibextid=2JQ9oc"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="https://www.instagram.com/ajit.yadaw.583/?utm_source=qr&igshid=OGIxMTE0OTdkZA%3D%3D"><i class="fa-brands fa-instagram"></i></i></a>
+                          <a href="https://www.linkedin.com/in/kabish-kumar-yadav-88b330261/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                          <a href="https://github.com/kabish84"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                           <input type="text" name="Name" placeholder="Your Name" required>
+                           <input type="email" name="Email" placeholder="Your Email" required>
+                           <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                           <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> by Kabish Kumar Yadav. All right reserved  </p>
+        
+            </div>
+          </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-120px";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby6XtpMxtuzbZhrSL_bddVUdnOcs-vFUpgO37_6TW0ep8SVjnLYrflwvNtqYlpEunTLSw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>      
+</body>
+</html>
